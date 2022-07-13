@@ -37,7 +37,7 @@ const Home = () => (
         bg={useColorModeValue('whiteAlpha.500', 'whiteAlpha.200')}
         css={{ backdropFilter: 'blur(10px)' }}
       >
-        Hello, I&apos;m an indie app developer based and bot in Indonesia
+        Halo, saya seorang pengembang aplikasi indie berbasis dan bot di Indonesia
       </Box>
 
       <Box display={{ md: 'flex' }}>
