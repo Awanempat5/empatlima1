@@ -18,14 +18,13 @@ const Works = () => (
   <Layout title="Works">
     <Container>
       <Heading as="h3" fontSize={20} mb={4}>
-        Works
+        Pekerjaan
       </Heading>
 
       <SimpleGrid columns={[1, 1, 2]} gap={6}>
         <Section>
-          <WorkGridItem id="inkdrop" title="Inkdrop" thumbnail={thumbInkdrop}>
-            A Markdown note-taking app with 100+ plugins, cross-platform and
-            encrypted data sync support
+          <WorkGridItem id="inkdrop" title="Inkdrop" thumbnail={thumbInkdrop}>Aplikasi pencatat penurunan harga dengan 100+ plugin, lintas platform, dan
+            dukungan sinkronisasi data terenkripsi
           </WorkGridItem>
         </Section>
         <Section>
@@ -34,7 +33,7 @@ const Works = () => (
             title="walknote"
             thumbnail={thumbWalknote}
           >
-            Music recommendation app for iOS
+            Aplikasi rekomendasi musik untuk iOS
           </WorkGridItem>
         </Section>
 
@@ -43,15 +42,14 @@ const Works = () => (
             id="fourpainters"
             title="The four painters"
             thumbnail={thumbFourPainters}
-          >
-            A video work generated with deep learning, imitating famous four
-            painters like Van Gogh
+          >Sebuah karya video yang dihasilkan dengan pembelajaran mendalam, meniru empat terkenal
+            pelukis seperti Van Gogh
           </WorkGridItem>
         </Section>
         <Section delay={0.1}>
           <WorkGridItem id="menkiki" thumbnail={thumbMenkiki} title="Menkiki">
-            An app that suggests ramen(noodle) shops based on a given photo of
-            the ramen you want to eat
+            Sebuah aplikasi yang menyarankan toko ramen (mie) berdasarkan foto tertentu dari
+            ramen yang ingin kamu makan
           </WorkGridItem>
         </Section>
       </SimpleGrid>
@@ -67,8 +65,8 @@ const Works = () => (
       <SimpleGrid columns={[1, 1, 2]} gap={6}>
         <Section delay={0.3}>
           <WorkGridItem id="margelo" thumbnail={thumbMargelo} title="Margelo">
-            A website of the elite app development and contracting agency based
-            in Austria
+Situs web pengembang aplikasi elit dan agen kontrak berbasis
+            di Austria
           </WorkGridItem>
         </Section>
         <Section delay={0.3}>
@@ -77,12 +75,12 @@ const Works = () => (
             thumbnail={thumbModeTokyo}
             title="mode.tokyo"
           >
-            The mode magazine for understanding to personally enjoy Japan
+            Majalah mode untuk pemahaman untuk menikmati Jepang secara pribadi
           </WorkGridItem>
         </Section>
         <Section delay={0.3}>
           <WorkGridItem id="styly" thumbnail={thumbStyly} title="Styly">
-            A VR Creative tools for fashion brands
+            Alat Kreatif VR untuk merek fashion
           </WorkGridItem>
         </Section>
       </SimpleGrid>
@@ -98,7 +96,7 @@ const Works = () => (
       <SimpleGrid columns={[1, 1, 2]} gap={6}>
         <Section delay={0.5}>
           <WorkGridItem id="pichu2" thumbnail={thumbPichu2} title="Pichu*Pichu">
-            Twitter client app for iPhone Safari
+            Aplikasi klien Twitter untuk iPhone Safari
           </WorkGridItem>
         </Section>
         <Section delay={0.5}>
@@ -107,13 +105,13 @@ const Works = () => (
             thumbnail={thumbFreeDBTagger}
             title="freeDBTagger"
           >
-            Automatic audio file tagging tool using FreeDB for Windows
+            Alat penandaan file audio otomatis menggunakan FreeDB untuk Windows
           </WorkGridItem>
         </Section>
         <Section delay={0.6}>
           <WorkGridItem id="amembo" thumbnail={thumbAmembo} title="Amembo">
-            P2P private file sharing tool with MSN Messenger integration for
-            Windows
+         Alat berbagi file pribadi P2P dengan integrasi MSN Messenger untuk
+            jendela
           </WorkGridItem>
         </Section>
       </SimpleGrid>
