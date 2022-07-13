@@ -150,6 +150,28 @@ const Home = () => (
               </Button>
             </Link>
           </ListItem>
+           <ListItem>
+            <Link href="#" target="_blank">
+              <Button
+                variant="ghost"
+                colorScheme="teal"
+                leftIcon={<IoLogoTwitter />}
+              >
+                @Awanempat5
+              </Button>
+            </Link>
+          </ListItem>
+ <ListItem>
+            <Link href="#" target="_blank">
+              <Button
+                variant="ghost"
+                colorScheme="teal"
+                leftIcon={<IoLogoInstagram />}
+              >
+                @Awanempat5
+              </Button>
+            </Link>
+          </ListItem>
         </List>
 
         <SimpleGrid columns={[1, 2, 2]} gap={6}>
