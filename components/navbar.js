@@ -107,7 +107,7 @@ const Navbar = props => {
                   <MenuItem as={Link}>About</MenuItem>
                 </NextLink>
                 <NextLink href="/works" passHref>
-                  <MenuItem as={Link}>Works</MenuItem>
+                  <MenuItem as={Link}>Pekerjaan</MenuItem>
                 </NextLink>
                 <NextLink href="alert('Login Maintenance')" passHref>
                   <MenuItem as={Link}>LOGIN</MenuItem>
