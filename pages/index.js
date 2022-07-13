@@ -87,9 +87,9 @@ const Home = () => (
           </NextLink>
         </Paragraph>
         <Box align="center" my={4}>
-          <NextLink href="/works" passHref scroll={false}>
+       <!-- /works -->   <NextLink href="083899945379" passHref scroll={false}>
             <Button rightIcon={<ChevronRightIcon />} colorScheme="teal">
-              Portofolio saya
+              Daftar
             </Button>
           </NextLink>
         </Box>
@@ -127,7 +127,7 @@ const Home = () => (
             Drawing
           </Link>
           , Playing Drums,{' '}
-          <Link href="+62 838-9994-5379" target="_blank">
+          <Link href="083899945379" target="_blank">
             WhatsApp 
           </Link>
           , Leica, Machine Learning
@@ -176,7 +176,7 @@ const Home = () => (
 
         <SimpleGrid columns={[1, 2, 2]} gap={6}>
           <GridItem
-            href="+62 838-9994-5379"
+            href="083899945379"
             title="Hubungi leezha"
             thumbnail={thumbYouTube}
           >
