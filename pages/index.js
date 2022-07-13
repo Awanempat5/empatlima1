@@ -180,14 +180,14 @@ const Home = () => (
             title="Hubungi leezha"
             thumbnail={thumbYouTube}
           >
-            Dengan mengklik gambar diatasi.
+            Dengan mengklik gambar diatas ini.
           </GridItem>
           <GridItem
             href="https://www.inkdrop.app/"
             title="Inkdrop"
             thumbnail={thumbInkdrop}
           >
-            A Markdown note-taking app
+            Aplikasi pencatat penurunan harga
           </GridItem>
         </SimpleGrid>
 
