@@ -45,7 +45,7 @@ const Home = () => (
           <Heading as="h2" variant="page-title">
             ☁️Awanempat5
           </Heading>
-          <p>Digital Craftsman ( Artist / Owner)</p>
+          <p>Pengrajin Digital ( Artis / Pemilik)</p>
         </Box>
         <Box
           flexShrink={0}
