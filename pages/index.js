@@ -87,7 +87,7 @@ const Home = () => (
           </NextLink>
         </Paragraph>
         <Box align="center" my={4}>
-       <!-- /works -->   <NextLink href="083899945379" passHref scroll={false}>
+      <NextLink href="083899945379" passHref scroll={false}>
             <Button rightIcon={<ChevronRightIcon />} colorScheme="teal">
               Daftar
             </Button>
