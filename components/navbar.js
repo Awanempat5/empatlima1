@@ -72,10 +72,10 @@ const Navbar = props => {
           mt={{ base: 4, md: 0 }}
         >
           <LinkItem href="/works" path={path}>
-            Works
+            Pekerjaan
           </LinkItem>
           <LinkItem href="/posts" path={path}>
-            Posts
+            Postingan
           </LinkItem>
           <LinkItem
             target="_blank"
@@ -87,7 +87,7 @@ const Navbar = props => {
             pl={2}
           >
             <IoLogoGithub />
-            Source
+            Sumber
           </LinkItem>
         </Stack>
 
@@ -104,7 +104,7 @@ const Navbar = props => {
               />
               <MenuList>
                 <NextLink href="/" passHref>
-                  <MenuItem as={Link}>About</MenuItem>
+                  <MenuItem as={Link}>Tentang</MenuItem>
                 </NextLink>
                 <NextLink href="/works" passHref>
                   <MenuItem as={Link}>Pekerjaan</MenuItem>
@@ -116,7 +116,7 @@ const Navbar = props => {
                   as={Link}
                   href="https://github.com/Awanempat5/empatlima1"
                 >
-                  View Source
+                  Lihat sumber
                 </MenuItem>
               </MenuList>
             </Menu>
